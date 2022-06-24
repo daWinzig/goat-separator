@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "goatseparator",
+  "version": "${version}",
+
+  "name": "Goat Separator",
+  "description": "Visually separates your Screaming Goats!",
+  "authors": [
+    "daWinzig"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.dawinzig.goatseparator.GoatSeparator"
+    ]
+  },
+  "mixins": [
+    "goatseparator.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
