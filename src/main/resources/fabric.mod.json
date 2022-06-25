@@ -9,16 +9,16 @@
     "daWinzig"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/daWinzig/goat-separator-1.19"
   },
 
   "license": "MIT",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/goatseparator/icon.png",
 
   "environment": "*",
   "entrypoints": {
-    "main": [
+    "client": [
       "net.dawinzig.goatseparator.GoatSeparator"
     ]
   },
