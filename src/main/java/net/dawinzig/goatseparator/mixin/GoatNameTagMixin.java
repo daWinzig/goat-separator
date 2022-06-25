@@ -16,6 +16,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
+@SuppressWarnings("unused")
 @Mixin(EntityRenderer.class)
 public abstract class GoatNameTagMixin<T extends Entity> {
 	protected final EntityRenderDispatcher dispatcher;
@@ -36,8 +37,8 @@ public abstract class GoatNameTagMixin<T extends Entity> {
 				double d = this.dispatcher.getSquaredDistanceToCamera(entity);
 				if (d <= 64) {
 					Text label;
-					if (((Entity)entity).hasCustomName()) {
-						label = Text.literal("§6" + ((Entity)entity).getDisplayName().getString() + "§r");
+					if (entity.hasCustomName()) {
+						label = Text.literal("§6" + entity.getDisplayName().getString() + "§r");
 					}
 					else {
 						label = Text.literal("§6" + Text.translatable("entity.goatseparator.screaming_goat").getString() + "§r");
