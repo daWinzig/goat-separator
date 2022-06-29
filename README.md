@@ -3,7 +3,7 @@
 <p>A simple mod that shows a yellow name tag over screaming goats.</p>
 <p>The name tag is visible within 64 blocks around the player when toggled on.
 <br />(default: L-Alt, can be changed in keybinds)</p>
-<p>The text will be either rendered as the name of the goat or simply "Screaming Goat".</p>
+<p>The text will either be rendered as the name of the goat or simply "Screaming Goat".</p>
 <h3>Installation</h3>
 <ul>
 <li>Install <a href="https://fabricmc.net/">Fabric</a></li>
