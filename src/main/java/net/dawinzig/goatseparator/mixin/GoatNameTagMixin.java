@@ -19,11 +19,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 @SuppressWarnings("unused")
 @Mixin(EntityRenderer.class)
 public abstract class GoatNameTagMixin<T extends Entity> {
-	protected final EntityRenderDispatcher dispatcher;
-
-	protected GoatNameTagMixin(EntityRendererFactory.Context ctx) {
-		this.dispatcher = ctx.getRenderDispatcher();
-	}
 
 	@Shadow protected abstract void renderLabelIfPresent(
 			T entity, Text text, MatrixStack matrices, VertexConsumerProvider vertexConsumers, int light);
@@ -34,17 +29,13 @@ public abstract class GoatNameTagMixin<T extends Entity> {
 			int light, CallbackInfo ci) {
 		if (GoatSeparator.keyBinding.isPressed()){
 			if (entity.getType() == EntityType.GOAT && ((GoatEntity)entity).isScreaming()) {
-				double d = this.dispatcher.getSquaredDistanceToCamera(entity);
-				if (d <= 64) {
-					Text label;
-					if (entity.hasCustomName()) {
-						label = Text.literal("§6" + entity.getDisplayName().getString() + "§r");
-					}
-					else {
-						label = Text.literal("§6" + Text.translatable("entity.goatseparator.screaming_goat").getString() + "§r");
-					}
-					this.renderLabelIfPresent(entity, label, matrices, vertexConsumers, light);
+				Text label;
+				if (entity.hasCustomName()) {
+					label = Text.literal("§6" + entity.getDisplayName().getString() + "§r");
+				} else {
+					label = Text.literal("§6" + Text.translatable("entity.goatseparator.screaming_goat").getString() + "§r");
 				}
+				this.renderLabelIfPresent(entity, label, matrices, vertexConsumers, light);
 				ci.cancel();
 			}
 		}
