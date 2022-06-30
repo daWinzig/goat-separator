@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Goat Separator",
-  "description": "Renders a Name Tag over Screaming Goats!",
+  "description": "Visually separates your Screaming Goats!",
   "authors": [
     "daWinzig"
   ],
