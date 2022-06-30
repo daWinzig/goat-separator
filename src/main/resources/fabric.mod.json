@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "Goat Separator",
-  "description": "Visually separates your Screaming Goats!",
+  "description": "Renders a Name Tag over Screaming Goats!",
   "authors": [
     "daWinzig"
   ],
@@ -13,7 +13,7 @@
     "sources": "https://github.com/daWinzig/goat-separator-1.19"
   },
 
-  "license": "MIT",
+  "license": "GPLv3",
   "icon": "assets/goatseparator/icon.png",
 
   "environment": "*",
