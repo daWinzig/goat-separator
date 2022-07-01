@@ -1,5 +1,7 @@
 {
   "category.goatseparator.main": "Ziegentrenner",
   "key.goatseparator.show": "Label anzeigen",
-  "entity.goatseparator.screaming_goat": "Schreiende Ziege"
+  "entity.goatseparator.screaming_goat": "Schreiende Ziege",
+  "text.goatseparator.toggled.on": "Schreiende Ziegen Label: §2ON§r",
+  "text.goatseparator.toggled.off": "Schreiende Ziegen Label: §4OFF§r"
 }

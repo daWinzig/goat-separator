@@ -1,5 +1,7 @@
 {
   "category.goatseparator.main": "Séparateur de chèvre",
   "key.goatseparator.show": "Afficher l’étiquette",
-  "entity.goatseparator.screaming_goat": "Chèvre hurlante"
+  "entity.goatseparator.screaming_goat": "Chèvre hurlante",
+  "text.goatseparator.toggled.on": "Étiquettes de chèvre hurlante: §2ALLUMÉ§r",
+  "text.goatseparator.toggled.off": "Étiquettes de chèvre hurlante: §4ÉTEINT§r"
 }

@@ -1,5 +1,7 @@
 {
   "category.goatseparator.main": "Kapra Apartigilo",
   "key.goatseparator.show": "Montru Etikedon",
-  "entity.goatseparator.screaming_goat": "Krianta Kapro"
+  "entity.goatseparator.screaming_goat": "Krianta Kapro",
+  "text.goatseparator.toggled.on": "Kriantaj Kaproj-etikedoj: §2ON§r",
+  "text.goatseparator.toggled.off": "Kriantaj Kaproj-etikedoj: §4OFF§r"
 }

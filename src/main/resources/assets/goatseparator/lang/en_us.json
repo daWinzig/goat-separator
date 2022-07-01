@@ -1,5 +1,7 @@
 {
   "category.goatseparator.main": "Goat Separator",
   "key.goatseparator.show": "Show Label",
-  "entity.goatseparator.screaming_goat": "Screaming Goat"
+  "entity.goatseparator.screaming_goat": "Screaming Goat",
+  "text.goatseparator.toggled.on": "Screaming Goat labels: §2ON§r",
+  "text.goatseparator.toggled.off": "Screaming Goat labels: §4OFF§r"
 }
