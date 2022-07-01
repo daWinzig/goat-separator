@@ -1,8 +1,8 @@
 <h2>Goat Separator</h2>
 <h3>Description</h3>
-<p>A simple mod that shows a yellow name tag over screaming goats.</p>
+<p>A simple mod that alters the texture of screaming goats and shows a yellow name tag over them.</p>
 <p>The name tag is visible within 64 blocks around the player when toggled on.
-<br />(default: L-Alt, can be changed in keybinds)</p>
+<br/>(default: L-Alt, can be changed in keybinds)</p>
 <p>The text will either be rendered as the name of the goat or simply "Screaming Goat".</p>
 <h3>Installation</h3>
 <ul>
@@ -11,6 +11,9 @@
 <li>Download the mod jar and put it in your .minecraft/mods folder</li>
 <li>That's it! :)</li>
 </ul>
+<h3>Resource Packs</h3>
+<p>The mod supports custom textures! To change the texture of screaming goats put the new texture at:
+<br/><i>./assets/goatseparator/textures/entity/goat/screaming_goat.png</i></p>
 <h3>Servers</h3>
 <p>This mod is clientside. It will work on servers, however it might be considered cheating.
 <br />Be sure to ask permission before using it on a server!</p>
