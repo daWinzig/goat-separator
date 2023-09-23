@@ -10,7 +10,8 @@
   ],
   "contact": {
     "homepage": "https://modrinth.com/mod/goat-separator",
-    "sources": "https://github.com/daWinzig/goat-separator"
+    "sources": "https://github.com/daWinzig/goat-separator",
+    "issues": "https://github.com/daWinzig/goat-separator/issues"
   },
 
   "license": "GPLv3",
